@@ -1,0 +1,24 @@
+﻿<Page x:Class="задача_1.Pages.Hello"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:задача_1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Hello">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border BorderThickness="0,0,0,1" BorderBrush="Black">
+                <TextBlock Text="Добро пожаловать !" FontSize="50" MouseEnter="TextBlock_MouseEnter" Padding="15,5,15,5" Cursor="None"
+                           FontWeight="ExtraBlack" FontFamily="Comic Sans MS">
+                    <TextBlock.Background>
+                        <SolidColorBrush Color="White" Opacity="0"/>
+                    </TextBlock.Background>
+                </TextBlock>
+            </Border>
+            <TextBlock Text="наведите чтоб продолжить" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Page>
