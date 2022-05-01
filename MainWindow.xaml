@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:задача_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Topmost="True" ResizeMode="CanMinimize">
+        Title="Программа издевака" Height="450" Width="800" Topmost="True" ResizeMode="CanMinimize"
     <Grid>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0.3,1.5">
